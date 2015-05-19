@@ -184,7 +184,7 @@ sort array Categories()
 sort array Commands(), 2
 array index to top Categories()
 while array index valid(Categories())
-    it$ = it$ + "        <a href="+quote$()+ Categories() + ".html" +quote$()+">"+Categories()+"</a><br/>" + NEWLINE
+    it$ = it$ + "        <a href="+quote$()+ Categories() + "_index.html" +quote$()+">"+Categories()+"</a><br/>" + NEWLINE
     next array index Categories()
 endwhile
 
