@@ -1,7 +1,8 @@
 
 #CONSTANT NEWLINE chr$(13)+chr$(10)
 
-GLOBAL VERSION$ = "20150325"
+GLOBAL VERSION$ = "20140414" 
+`GLOBAL VERSION$ = "20150325"
 
 type commandData
     category as string
@@ -183,7 +184,7 @@ sort array Categories()
 sort array Commands(), 2
 array index to top Categories()
 while array index valid(Categories())
-    it$ = it$ + "        <a href="+quote$()+ Categories() +quote$()+">"+Categories()+"</a><br/>" + NEWLINE
+    it$ = it$ + "        <a href="+quote$()+ Categories() + ".html" +quote$()+">"+Categories()+"</a><br/>" + NEWLINE
     next array index Categories()
 endwhile
 
