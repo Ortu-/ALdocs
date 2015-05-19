@@ -1,7 +1,7 @@
 
 #CONSTANT NEWLINE chr$(13)+chr$(10)
 
-GLOBAL VERSION$ = "20150325"
+GLOBAL VERSION$ = "20140414" `"20150325"
 
 type commandData
     category as string

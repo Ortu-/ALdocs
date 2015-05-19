@@ -5,7 +5,7 @@ project name=buildTemplates
 
 ; **** source file information ****
 main=buildFiles.dba
-LineMain=293
+LineMain=7
 
 ; **** Executable Information  ***
 ; build types: exe, media, installer, alone
@@ -38,7 +38,7 @@ window resolution=1024x768
 
 ; **** Media ****
 ; Example entries: media1=graphics\*.jpg
-media root path=E:\dev\dbp\proj\ALdocs\
+media root path=C:\The Game Creators\Dark Basic Professional Online\Projects\ALdocs\
 
 ; **** Icons ****
 
