@@ -5,7 +5,7 @@ Any user of Dark Basic Pro has probably come across Evolved's Advanced Lighting 
 
 It is big, complex, sometimes intimidating, a bit of a performance hog, and gives absolutely fantastic looking visuals for DirectX 9.0c
 
-While it does distribute with some exellent demo projects, it is sorely lacking in explanation and documentation.
+While it does distribute with some excellent demo projects, it is sorely lacking in explanation and documentation.
 
 This project treats AL as a DBpro plugin, providing a keywords.ini file for the IDE for syntax highlighting and function parameter prompts.
 

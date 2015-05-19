@@ -5,7 +5,7 @@ project name=buildTemplates
 
 ; **** source file information ****
 main=buildFiles.dba
-LineMain=7
+LineMain=3
 
 ; **** Executable Information  ***
 ; build types: exe, media, installer, alone
