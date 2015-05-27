@@ -12,7 +12,7 @@
         </div><br>
         
         <!--Title heading-->
-        <h1>DirLight_GetAngleX</h1><br>
+        <h1>DirLight_GetColorRed</h1><br>
         
         <!--Syntax block heading-->
         <table width="100%">
@@ -22,7 +22,7 @@
         <!--Syntax block contents-->
         <table>
             <tr><td>
-                Return f AngleX = DirLight_GetAngleX(null) 
+                Return float R = DirLight_GetColorRed(null) 
             </td></tr>
         </table><br>
        
@@ -34,7 +34,8 @@
         <!--Description block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>Returns the current red component value of the directional light.
+				<p>This value is stored internally as the global variable: float AL_DirLightColor.x
             </td></tr>
         </table><br>
         
@@ -46,7 +47,7 @@
         <!--Samples block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>r# = DirLight_GetColorRed()
             </td></tr>
         </table><br>
         

@@ -22,7 +22,7 @@
         <!--Syntax block contents-->
         <table>
             <tr><td>
-                Return f Visible = DirLight_GetVisible(null) 
+                Return float Visible = DirLight_GetVisible(null) 
             </td></tr>
         </table><br>
        
@@ -34,7 +34,9 @@
         <!--Description block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>Returns visible status of the directional light.
+				<p>This value is stored internally as the global variable: boolean AL_DirLightVisible
+				<p>The internal variable is of type boolean, but is cast as a float for the function return.
             </td></tr>
         </table><br>
         
@@ -46,7 +48,7 @@
         <!--Samples block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>isVisible = DirLight_GetVisible()
             </td></tr>
         </table><br>
         

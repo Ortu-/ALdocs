@@ -12,7 +12,7 @@
         </div><br>
         
         <!--Title heading-->
-        <h1>DirLight_Create</h1><br>
+        <h1>DirLight_GetRange</h1><br>
         
         <!--Syntax block heading-->
         <table width="100%">
@@ -22,7 +22,7 @@
         <!--Syntax block contents-->
         <table>
             <tr><td>
-                DirLight_Create(b UseSpecular, b UseSSAO, i ShadowQuality, i ShadowMapSize)
+                Return float Range = DirLight_GetRange(null) 
             </td></tr>
         </table><br>
        
@@ -34,7 +34,8 @@
         <!--Description block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>Returns the range value of the directional light.
+				<p>This value is stored internally as the global variable: float AL_DirLightRange
             </td></tr>
         </table><br>
         
@@ -46,7 +47,7 @@
         <!--Samples block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>range# = DirLight_GetRange()
             </td></tr>
         </table><br>
         

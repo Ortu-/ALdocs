@@ -12,7 +12,7 @@
         </div><br>
         
         <!--Title heading-->
-        <h1>DirLight_SetAngle</h1><br>
+        <h1>DirLight_GetAngleY</h1><br>
         
         <!--Syntax block heading-->
         <table width="100%">
@@ -22,7 +22,7 @@
         <!--Syntax block contents-->
         <table>
             <tr><td>
-                DirLight_SetAngle(f AngleX, f AngleY, f AngleZ)
+                Return float AngleY = DirLight_GetAngleY(null) 
             </td></tr>
         </table><br>
        
@@ -34,7 +34,8 @@
         <!--Description block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>Returns the current y axis rotation angle of the directional light.
+				<p>This value is stored internally as the global variable: float AL_DirLightAngle.y
             </td></tr>
         </table><br>
         
@@ -46,7 +47,7 @@
         <!--Samples block contents-->
         <table>
             <tr><td>
-                <p>{{content here}}
+                <p>ay# = DirLight_GetAngleY()
             </td></tr>
         </table><br>
         
